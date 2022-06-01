@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width">
+      <title>Desafio Encriptador</title>
+  </head>
+  <body>
+    
+    <header>
+      <img src="logo_alura_2.png" class="logo" alt="logo da alura com a inicial da letra a">
+    </header>
+
+    <main class="main">
+        
+      <section>
+        <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto aqui"></textarea>
+
+        <div>
+          <h6 class="informacao">Apenas letras maiúsculas e minúsculas</h6>
+        </div>
+      
+      <div class="botoes">
+        <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+
+          <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+      </div>
+      </section>
+              
+      <section>
+        <textarea class="mensagem" cols="18" rows="8"></textarea>
+        <button class="copiar" id="botao" onclick="btnCopiar()">Copiar</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+*{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+body {
+  /*background-color: #F3F5FC;*/
+  background-image: url("https://cryptoitunes.com/images/stormgain/1629122446466/original/symmetric-vs-asymmetric-encryption-with-stormgain.jpg");
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.main {
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.input-texto {
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.mensagem {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 90px;
+  background-image: url("boneco.png");
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  height: 337px;
+  width: 414px;
+  font-size: 24px;
+}
+
+.copiar {
+  margin-left: 140px;
+  border-radius: 24px;
+  background: #D8DFE8;
+  border: 1px solid #D8DFE8;
+  padding: 5px;
+  width: 328px;
+}
+
+.copiar:hover {
+  background: grey;
+  transform: scale(1.2);
+  border-color: #808080;
+}
+
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  
+}
+
+.encriptar {
+  background-color: #0A3871;
+  border: 1px solid #0A3871;
+  color: #FFFFFF;  
+  border-radius: 24px;
+  padding: 5px;
+  width: 328px;
+}
+
+.encriptar:hover {
+background: darkblue;
+transform: scale(1.2);
+border-color: #000080
+}
+
+.desencriptar {
+  margin-left: 60px;
+  border-radius: 24px;
+  background: #D8DFE8;
+  border: 1px solid #D8DFE8;
+  padding: 5px;
+  width: 328px;
+}
+
+.desencriptar:hover{
+  background: grey;
+  transform: scale(1.2);
+  border-color: #808080;
+} 
+
+.informacao {
+  font-size: 15px;
+  color: #FFFFFF;
+  margin-left: 438px;
+}
+  
+  
+  
