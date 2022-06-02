@@ -33,7 +33,7 @@ function btnDesencriptar() {
 function desencriptar(stringDesencriptada) {
   let matrizCodigoDesencriptar = [['enter', 'e'],
                                   ['imes', 'i'],
-                                  ['a', 'ai'],
+                                  ['ai', 'a'],
                                   ['ober', 'o'],
                                   ['ufat', 'u']
                                  ]
